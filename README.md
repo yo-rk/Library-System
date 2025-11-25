@@ -1,80 +1,71 @@
-🚀 Project Overview
+📘 CITY LIBRARY DIGITAL MANAGEMENT SYSTEM
+Java Programming Project
+Name: Yashieta Sethi
+Roll No.: 2401010187
+Course Name: Java Programming
+Programme: B.Tech CSE CORE
+Session: 2025–26
 
-The City Library Digital Management System is a Java-based console application that digitizes basic library operations including book management, member handling, issuing/returning books, and persistent data storage using File Handling and Java Collections Framework.
+---
 
-This project fulfills all requirements mentioned in the assignment PDF (File Handling, Collections, Comparable/Comparator, Buffered I/O, etc.).
+📝 DESCRIPTION
+A console-based Java application for managing a library.
+It demonstrates file handling, OOP, collections, regex validation, Comparable interface, and persistent storage of books and members using text files.
 
-🎯 Objectives
+---
 
-✔ Implement File Handling using FileReader, FileWriter, BufferedReader, BufferedWriter
-✔ Use Java Collections Framework (Map, List, Set)
-✔ Implement Comparable & Comparator for sorting
-✔ Store and retrieve data from text files
-✔ Apply exception handling and input validation
-✔ Ensure data persistence across application runs
+✨ FEATURES
+• Add New Books (Title, Author, Category)
+• Add Members (name + email validation)
+• Issue Books to Members
+• Return Books
+• Search Books by title/author/category
+• Sort Books (by Title, Author, Category)
+• File Storage: books.txt & members.txt
+• Email Validation using Regex
+• Error Handling & User-Friendly Inputs
 
-🧩 Features
-📘 Book Management
+---
 
-Add new books
+🧠 CONCEPTS USED
+• Object-Oriented Programming (classes, methods)
+• Comparable Interface for sorting by title
+• Java Collections (HashMap, ArrayList)
+• File Handling (BufferedReader, BufferedWriter)
+• Regular Expressions (Pattern for email validation)
+• Exception Handling using try-catch
+• Persistent Data Storage
 
-View book details
+---
 
-Search by title, author, or category
+▶️ HOW TO RUN
 
-Sort books by Title, Author, or Category
+1. Save the file as:
+   LibrarySystem.java
 
-👤 Member Management
+2. Compile the program:
+   javac LibrarySystem.java
 
-Add new members
+3. Run the program:
+   java LibrarySystem
 
-Maintain a list of books issued to each member
+---
 
-Basic email validation
+📂 FILES CREATED AUTOMATICALLY
+books.txt → Stores: id|title|author|category|issued(1/0)
+members.txt → Stores: id|name|email|issuedBookIds
 
-🔄 Transaction Management
+---
 
-Issue books
+✔ CONCLUSION
+This project is a complete demonstration of Java OOP + File Handling + Collections + Validation + Data Persistence.
+Perfect for practicals, submissions, and viva.
 
-Return books
+---
 
-Automatically update member records
+If you want, I can also generate:
+• viva questions
+• output screenshots text
+• a 2-line project summary for teachers
 
-🗄️ File Persistence
-
-Book records saved to books.txt
-
-Member records saved to members.txt
-
-Data loads automatically on application start
-
-🛠️ Technologies Used
-Component	Usage
-Java	Core language
-Collections Framework	List, Map, Set
-Comparable & Comparator	Sorting Books
-BufferedReader/Writer	Faster file operations
-Exception Handling	Validation & stability
-
-
-
-✔ Evaluation Mapping (As per Assignment PDF)
-Rubric Item	Achieved?
-File Handling	✅ Used FileReader, FileWriter, BufferedReader, BufferedWriter
-Collections Framework	✅ Map, List, Set used
-Sorting & Searching	✅ Comparable + Comparator implemented
-Input Validation	✅ Email format & unique IDs
-Code Structure	✅ Modular, clean, documented
-Documentation	✅ README + comments
-Completeness	✅ Fully functional library system
-📌 Author
-
-Name: Pratham Sharma
-Enrollment: 2401010229
-Email: prathamsharmrrocks@gmail.com
-
-⭐ Conclusion
-
-This project is a complete implementation of a digital library management system using Java, covering all requirements from file handling to collections, sorting, searching, and exception handling.
-
-Feel free to modify or extend the features!
+Just tell me.
