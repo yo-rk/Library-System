@@ -1,71 +1,98 @@
-📚 City Library Digital Management System
-📘 Java Programming Project
-Name: Yashieta Sethi
-Roll No.: 2401010187
-Course Name: Java Programming
-Programme: B.Tech CSE CORE
-Session: 2025–26
+# 📚 **City Library Digital Management System**
+
+# 📘 *Java Programming Project*
+
+**Name:** Yashieta Sethi
+**Roll No.:** 2401010187
+**Course Name:** Java Programming
+**Programme:** B.Tech CSE CORE
+**Session:** 2025–26
 
 ---
 
-📝 DESCRIPTION
-A console-based Java application for managing a library.
-It demonstrates file handling, OOP, collections, regex validation, Comparable interface, and persistent storage of books and members using text files.
+## 📝 **Description**
+
+A console-based Java application designed to manage a **digital library**.
+It demonstrates **Object-Oriented Programming**, **File Handling**, **Collections**, **Comparable interface**, **Regex validation**, and **Data Persistence** through text files (`books.txt` and `members.txt`).
 
 ---
 
-✨ FEATURES
-• Add New Books (Title, Author, Category)
-• Add Members (name + email validation)
-• Issue Books to Members
-• Return Books
-• Search Books by title/author/category
-• Sort Books (by Title, Author, Category)
-• File Storage: books.txt & members.txt
-• Email Validation using Regex
-• Error Handling & User-Friendly Inputs
+## ✨ **Features**
+
+* 📕 Add New Books (Title, Author, Category)
+* 👤 Add Members with **Email Validation**
+* 🔄 Issue Books with proper availability checks
+* 🔁 Return Books to restore availability
+* 🔍 Search Books (by title, author, or category)
+* 🗂️ Sort Books by:
+
+  * 🔠 Title (using Comparable interface)
+  * ✍️ Author
+  * 🗃️ Category
+* 💾 Auto-save data to files
+* 🔐 Regex pattern validation for email
+* 🛠️ Full error handling for invalid inputs
 
 ---
 
-🧠 CONCEPTS USED
-• Object-Oriented Programming (classes, methods)
-• Comparable Interface for sorting by title
-• Java Collections (HashMap, ArrayList)
-• File Handling (BufferedReader, BufferedWriter)
-• Regular Expressions (Pattern for email validation)
-• Exception Handling using try-catch
-• Persistent Data Storage
+## 🧠 **Concepts Used**
+
+* **Object-Oriented Programming**
+  Classes: `Book`, `Member`, `LibrarySystem`
+* **Comparable Interface** for sorting
+* **Java Collections**
+
+  * `HashMap`, `ArrayList`, `Collections.sort`
+* **File Handling**
+
+  * `BufferedWriter`, `BufferedReader`, `FileWriter`, `FileReader`
+* **Regex Validation** (`Pattern`)
+* **Exception Handling**
+
+  * `try–catch` blocks
+* **Persistent Storage**
+
+  * Saves and loads data from `.txt` files
 
 ---
 
-▶️ HOW TO RUN
+## ▶️ **How to Run**
 
-1. Save the file as:
-   LibrarySystem.java
+### 1️⃣ Save as:
 
-2. Compile the program:
-   javac LibrarySystem.java
+```
+LibrarySystem.java
+```
 
-3. Run the program:
-   java LibrarySystem
+### 2️⃣ Compile:
 
----
+```
+javac LibrarySystem.java
+```
 
-📂 FILES CREATED AUTOMATICALLY
-books.txt → Stores: id|title|author|category|issued(1/0)
-members.txt → Stores: id|name|email|issuedBookIds
+### 3️⃣ Run:
 
----
-
-✔ CONCLUSION
-This project is a complete demonstration of Java OOP + File Handling + Collections + Validation + Data Persistence.
-Perfect for practicals, submissions, and viva.
+```
+java LibrarySystem
+```
 
 ---
 
-If you want, I can also generate:
-• viva questions
-• output screenshots text
-• a 2-line project summary for teachers
+## 📂 **Files Generated Automatically**
 
-Just tell me.
+* **books.txt**
+  Format → `id|title|author|category|issued(1/0)`
+
+* **members.txt**
+  Format → `id|name|email|issuedBookIds`
+
+These files are automatically created and updated — no manual setup needed.
+
+---
+
+## ✅ **Conclusion**
+
+This project is a full demonstration of **Java OOP + File Handling + Collections + Validation + Persistence**.
+It’s perfectly suitable for **assignments, practical exams, and academic submissions**.
+
+
