@@ -1,5 +1,5 @@
-📘 CITY LIBRARY DIGITAL MANAGEMENT SYSTEM
-Java Programming Project
+📚 City Library Digital Management System
+📘 Java Programming Project
 Name: Yashieta Sethi
 Roll No.: 2401010187
 Course Name: Java Programming
